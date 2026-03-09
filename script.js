@@ -138,7 +138,7 @@ setInterval(petala, 900);
 
 /* CONTADOR */
 
-const inicio = new Date("2024-01-01");
+const inicio = new Date("2026-03-07");
 
 function atualizarContador() {
   const agora = new Date();
