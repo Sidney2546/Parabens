@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Nossa História ❤️</title>
+
+    <!-- FONTES BONITAS -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <audio id="musica" loop>
+      <source src="musica/amor.mp3" />
+    </audio>
+
+    <!-- INTRO -->
+
+    <div class="intro" id="intro">
+      <div class="titulo">Hoje é um dia muito especial...</div>
+
+      <div class="sub">
+        Porque é o dia da pessoa mais importante da minha vida ❤️
+      </div>
+    </div>
+
+    <!-- CARTA -->
+
+    <div class="carta" id="carta">
+      <h1>Feliz aniversário ❤️</h1>
+
+      <p>Hoje nasceu a pessoa que mudou completamente a minha vida.</p>
+
+      <p>
+        Desde que você apareceu tudo ficou mais bonito, mais leve e muito mais
+        feliz.
+      </p>
+
+      <p>Seu sorriso ilumina meus dias e sua presença faz tudo valer a pena.</p>
+
+      <h2>💍 Você aceita casar comigo?</h2>
+
+      <button class="sim" onclick="sim()">SIM ❤️</button>
+      <button class="nao" id="nao">NÃO 😅</button>
+    </div>
+
+    <!-- HISTORIA -->
+
+    <div class="historia" id="historia">
+      <h1 style="text-align: center">Nossa História ❤️</h1>
+
+      <div id="contador"></div>
+
+      <div class="timeline">
+        <div class="momento">
+          <p id="textoHistoria"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
